@@ -11,6 +11,7 @@
     "font-awesome-webpack": "0.0.4",
     "hyphy-vision": "^1.1.7",
     "jquery": "^3.3.1",
+    "jsonlint": "^1.6.3",
     "topojson": "3.x",
     "underscore": "1.x"
   },

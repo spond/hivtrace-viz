@@ -4016,7 +4016,7 @@ var hivtrace_cluster_network_graph = function(
         .attr("d", misc.symbol(symbol_type).size(node_size(node)))
         .attr("class", "node")
         .classed("selected_object", function(d) {
-          return d.match_filter;
+          return d.match_filter && !self.hide_unselected;
         })
         .classed("injected_object", function(d) {
           return d.node_class == "injected";
