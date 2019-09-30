@@ -127,6 +127,11 @@ path.cluster, circle.cluster {
   stroke-opacity:0.3;
 }
 
+.highlight-edge {
+  stroke: #d9534f !important;
+  stroke-width:3px !important;
+}
+
 #network_tag {
   margin-top: 15px;
 }
